@@ -4,7 +4,7 @@ body {
 
 }
 header{
-    background-color: rgba(100, 88, 83, 1);;
+    background-color: rgba(100, 88, 83, 1);
     height: 150px;
 }
 h1{
@@ -17,7 +17,7 @@ h1{
     font-size: 80px;
     /*margin t,r,b,l*/
     color: rgba(255, 111, 89, 1);
-    text-shadow: 1px,1px,1px rgb(24,56,78);
+    text-shadow: 1px 1px 1px rgba(100, 88, 83, 1);
 }
 ul{
     align-items: center;

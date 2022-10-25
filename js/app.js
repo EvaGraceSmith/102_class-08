@@ -12,10 +12,14 @@ function getCatName(){
   function guessANumber(){
     let answer;
     while(answer !== '3'){
-      answer = prompt('How many treats does your kitty want? Enter a number between 1-5');
-      if(answer !== '3'){
-        alert('Try again!');
-      } else {
+      answer = prompt('Guess how many treats your kitty wants? Enter a number between 1-5');
+      if(answer > '3'){
+        alert('That\'s too many! Try again!');
+      } else 
+      if(answer < '3'){
+        alert('That\'s not enough! Try again!');
+      } else
+      {
         alert('YES!!');
       }
     }
